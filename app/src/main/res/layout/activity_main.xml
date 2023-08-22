@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.MainActivity">
+
+    <EditText
+        android:id="@+id/edNumero1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número 1" />
+
+    <EditText
+        android:id="@+id/edNumero2"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:hint="Número 2" />
+
+    <EditText
+        android:id="@+id/edNumero3"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:hint="Número 3" />
+
+    <EditText
+        android:id="@+id/edNumero4"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Número 4" />
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Resultado" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Suma"
+        android:text="Suma" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="resta"
+        android:text="resta" />
+</LinearLayout>
